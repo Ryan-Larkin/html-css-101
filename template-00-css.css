@@ -1,0 +1,203 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.main-header {
+    display:flex;
+    align-items:center;
+    background-image: url("http://placehold.it/750x450");
+    height:450px;
+}
+
+.logo-dot {
+    font-size:1.5em;
+    color:#4dd067;
+}
+
+.header-info {
+    margin-left: 200px;
+    width:350px;
+}
+
+.header-icons {
+    display: flex;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.header-icons > li {
+    opacity: 0.4;
+    background-color:black;
+    color:#eee;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    margin:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.header-icons > li:hover {
+    opacity:1;
+    background-color:#4dd067;
+    color:white;
+}
+
+p, li {
+    color:gray;
+}
+
+.title {
+    font-weight:bold;
+    color:black;
+}
+
+.product-information {
+    height:250px;
+}
+
+.information-list {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
+}
+
+.information-list > li {
+    margin:20px;
+    text-align:center;
+}
+
+.information-list > li > i {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+}
+
+.info-icon {
+    background-color:#4dd067;
+    color:white;
+    font-size:30px;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    margin: 0 auto;
+}
+
+.notifications {
+    display:flex;
+    background-color:#eee;
+    height:350px;
+}
+
+.notifications-text {
+    margin:50px 50px 50px 150px;
+}
+
+.email-input {
+    border:1px solid #eee;
+    padding:5px 0 5px 5px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    font-size:1em;
+}
+
+.submit-button {
+    background-color:#4dd067;
+    color:white;
+    border:1px solid #eee;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    padding:5px 15px 5px 15px;
+    font-size:1em;
+}
+
+.video {
+    margin:50px 150px 50px 0;
+}
+
+.quotes {
+    text-align:center;
+    height:350px;
+}
+
+.quote-text {
+    font-style:italic;
+    padding-left:300px;
+    padding-right:300px;
+}
+
+.quote-person {
+    color:black;
+}
+
+.quote-selection {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
+}
+
+.quote-selection > li {
+    margin:3px;
+}
+
+.quote-selection >li:hover {
+    color:#4dd067;
+}
+
+.social-icons {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.social-icons > li {
+    list-style:none;
+    background-color:gray;
+    color:white;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:50%;
+    height:25px;
+    width:25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    opacity:0.4;
+}
+
+.social-icons > li:hover {
+    background-color:#4dd067;
+    color:white;
+    opacity:1;
+}
+
+.main-footer {
+    height:100px;
+    background-color:#eee;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.footer-options {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
+}
+
+.footer-options > li {
+    margin-left:20px;
+    margin-right:20px;
+}
