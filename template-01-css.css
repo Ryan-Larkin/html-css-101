@@ -1,0 +1,147 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+/*color red: #d04e4e */
+/*text color: #313534*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.site-wrapper {
+    margin-left:30px;
+    margin-right:30px;
+    max-width:940px;
+    margin:0 auto;
+}
+
+.main-header {
+    display:flex;
+    align-items:center;
+    padding-bottom:30px;
+    border-bottom:3px solid #eee;
+    justify-content:space-between;
+}
+
+.logo-total {
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+}
+
+.logo-my {
+    background-color:#d04e4e;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:65px;
+    width:65px;
+    font-size:25px;
+}
+
+.logo-journey {
+    font-size:25px;
+    margin-left:10px;
+    font-weight:bold;
+}
+
+.logo-bar {
+    color:gray;
+    font-size:30px;
+    margin:0 10px 0 10px;
+}
+
+.logo-grey {
+    color:gray;
+    font-size:10px;
+    width:80px;
+}
+
+.social-icons {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
+}
+
+.social-icons > li {
+    opacity:0.4;
+    background-color:gray;
+    color:white;
+    border-radius:50%;
+    height:30px;
+    width:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left: 12px;
+    margin-right:12px;
+}
+
+.intro-text > p {
+    font-size:2em;
+    color:#313534;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.theme-info {
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.theme-info > li {
+    text-align:center;
+}
+
+.fa.info-icons {
+    margin:0 auto;
+    color:#d04e4e;
+    height:60px;
+    width:60px;
+    font-size:60px;
+}
+
+.title {
+    color:#313534;
+}
+
+.divider {
+    color:gray;
+    font-size:1em;
+}
+
+.theme-text {
+    color:gray;
+}
+
+.intro {
+    border-bottom: 3px solid #eee;
+}
+
+.body-one {
+    display:flex;
+    justify-content:center;
+    padding: 90px 0 90px 0;
+    border-bottom:3px solid #eee;
+}
+
+.text-container {
+    margin-left:60px;
+}
+
+.text-title {
+    color:#313534;
+    font-size:2em;
+}
+
+.text-block {
+    color:gray;
+}
